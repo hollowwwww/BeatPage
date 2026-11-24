@@ -39,7 +39,7 @@ jobs:
       # 仓库改名/换部署路径时只改这里即可。
       - name: Build
         env:
-          BASE_PATH: /eyeBeat/
+          BASE_PATH: /BeatPage/
         run: pnpm build
 
       - uses: actions/configure-pages@v5
