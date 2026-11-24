@@ -19,12 +19,12 @@ const analyser = computed(() =>
     class="brand"
     href="/"
     data-eyes-host
-    title="EyeBeat"
-    aria-label="EyeBeat"
+    title="Chanson"
+    aria-label="Chanson"
     @click.prevent="emit('clear')"
   >
     <RobotEyes :on="true" :analyser="analyser" :scale="2.5" />
-    <span class="brand-text">EYE<span>/</span>BEAT</span>
+    <span class="brand-text">CHAN<span>/</span>SON</span>
   </a>
 </template>
 
